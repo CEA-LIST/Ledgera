@@ -1,0 +1,20 @@
+[package]
+name = "ledgera-blank-app-template"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+ledgera-types       = { workspace = true }
+ledgera-core-logic  = { workspace = true }
+ledgera-node-client = { workspace = true }
+ledgera-comms       = { workspace = true }
+ledgera-pki         = { workspace = true }
+ledgera-macros      = { workspace = true }
+nom                 = { workspace = true }
+serde               = { workspace = true }
+rand                = { workspace = true }
+tokio               = { workspace = true }
+bincode             = { workspace = true }
+log                 = { workspace = true }
+hex                 = { workspace = true }

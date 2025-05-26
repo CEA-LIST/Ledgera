@@ -1,0 +1,16 @@
+[package]
+name = "ledgera-pki"
+edition = "2021"
+
+
+
+[dependencies]
+bincode = { workspace = true }
+serde   = { workspace = true }
+rand    = { workspace = true }
+hex     = { workspace = true }
+
+
+ed25519-dalek = { workspace = true } # { version = "2.2.0", features = ["batch"], optional = true }
+
+

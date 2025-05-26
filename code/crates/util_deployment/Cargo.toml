@@ -1,0 +1,19 @@
+[package]
+name = "ledgera-util-deployment"
+edition = "2021"
+
+[dependencies]
+tokio       = { workspace = true }
+serde       = { workspace = true }
+log         = { workspace = true }
+env_logger  = { workspace = true }
+map-macro   = { workspace = true }
+hex         = { workspace = true }
+
+ledgera-types       = { workspace = true }
+ledgera-comms       = { workspace = true }
+ledgera-pki         = { workspace = true }
+
+
+# Backends for Test 
+ed25519-dalek       = { workspace = true }

@@ -1,0 +1,37 @@
+[package]
+name = "ledgera-app-string-concat-test"
+description = "Testing framework for Ledgera String Concatenation Application"
+edition = "2021"
+
+[dependencies]
+tokio      = { workspace = true }
+serde      = { workspace = true }
+log        = { workspace = true }
+env_logger = { workspace = true }
+map-macro  = { workspace = true }
+hex        = { workspace = true }
+nom        = { workspace = true }
+
+ledgera-types = { workspace = true }
+ledgera-comms = { workspace = true }
+ledgera-pki = { workspace = true }
+ledgera-core-logic = { workspace = true }
+ledgera-node-client = { workspace = true }
+ledgera-node-voter = { workspace = true }
+ledgera-node-store = { workspace = true }
+ledgera-node-logger = { workspace = true }
+ledgera-node = { workspace = true }
+ledgera-knowledge-representation = { workspace = true }
+
+ledgera-util-basic-tui = { workspace = true }
+ledgera-util-basic-demo = { workspace = true }
+
+ledgera-util-deployment = { workspace = true }
+
+ledgera-app-string-concat     = { workspace = true }
+ledgera-app-string-concat-tui = { workspace = true }
+
+# Backends for Test 
+ed25519-dalek       = { workspace = true }
+ledgera-comms-zenoh = { workspace = true }
+zenoh               = { workspace = true }

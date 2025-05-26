@@ -1,0 +1,10 @@
+[package]
+name = "ledgera-util-basic-demo"
+edition = "2021"
+
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+portable-pty = "0.9"
+vt100 = "0.16"

@@ -1,0 +1,32 @@
+[package]
+name = "ledgera-test-service-template"
+edition = "2021"
+
+[dependencies]
+tokio       = { workspace = true }
+serde       = { workspace = true }
+log         = { workspace = true }
+env_logger  = { workspace = true }
+map-macro   = { workspace = true }
+hex         = { workspace = true }
+
+ledgera-types       = { workspace = true }
+ledgera-comms       = { workspace = true }
+ledgera-pki         = { workspace = true }
+ledgera-core-logic  = { workspace = true }
+ledgera-node-client = { workspace = true }
+ledgera-node-voter  = { workspace = true }
+ledgera-node-store  = { workspace = true }
+ledgera-node-logger = { workspace = true }
+ledgera-node        = { workspace = true }
+
+ledgera-util-deployment = { workspace = true }
+
+
+ledgera-blank-app-template          = { workspace = true }
+ledgera-blank-app-template-tui = { workspace = true }
+
+# Backends for Test 
+ed25519-dalek       = { workspace = true }
+ledgera-comms-zenoh = { workspace = true }
+zenoh               = { workspace = true }

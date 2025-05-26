@@ -1,0 +1,31 @@
+[package]
+name = "ledgera-util-basic-tui"
+edition = "2021"
+
+[dependencies]
+tokio         = { workspace = true }
+log           = { workspace = true }
+env_logger    = { workspace = true }
+color-eyre    = { workspace = true }
+futures       = { workspace = true }
+nom           = { workspace = true }
+map-macro     = { workspace = true }
+serde_json    = { workspace = true }
+
+
+ledgera-pki                        = { workspace = true }
+ledgera-types                      = { workspace = true }
+ledgera-comms                      = { workspace = true }
+ledgera-core-logic                 = { workspace = true }
+ledgera-node-client                = { workspace = true }
+ledgera-knowledge-representation   = { workspace = true }
+
+
+crossterm  = { workspace = true }
+ratatui    = { workspace = true }
+tui-logger = { workspace = true }
+chrono     = { workspace = true }
+
+
+
+

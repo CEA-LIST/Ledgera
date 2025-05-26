@@ -1,0 +1,16 @@
+[package]
+name = "ledgera-node-client"
+edition = "2021"
+
+[dependencies]
+ledgera-pki        = { workspace = true }
+ledgera-types      = { workspace = true }
+ledgera-comms      = { workspace = true }
+ledgera-core-logic = { workspace = true }
+serde              = { workspace = true }
+tokio              = { workspace = true }
+log                = { workspace = true }
+bincode            = { workspace = true }
+map-macro          = { workspace = true }
+nom                = { workspace = true }
+hex                = { workspace = true }

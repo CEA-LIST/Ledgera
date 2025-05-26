@@ -1,0 +1,13 @@
+[package]
+name = "ledgera-core-logic"
+edition = "2021"
+
+[dependencies]
+ledgera-comms = { workspace = true }
+ledgera-types = { workspace = true }
+ledgera-pki   = { workspace = true }
+serde         = { workspace = true }
+tokio         = { workspace = true }
+log           = { workspace = true }
+bincode       = { workspace = true }
+map-macro     = { workspace = true }

@@ -1,0 +1,12 @@
+[package]
+name = "ledgera-app-string-concat-tui"
+description = "TUI glue (command parser and knowledge-graph printer) for the string-concat app"
+edition = "2021"
+
+[dependencies]
+nom = { workspace = true }
+
+ledgera-node-client              = { workspace = true }
+ledgera-knowledge-representation = { workspace = true }
+
+ledgera-app-string-concat = { workspace = true }
