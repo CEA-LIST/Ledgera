@@ -1,20 +1,23 @@
+# Ledgera
 
+Please refer to [the dedicated website for Ledgera](https://ledgera.tech).
 
-# Ledgera prototype
+## Ledgera White Paper
 
-Please refer to [the dedicated website for Ledgera version V_0_1](https://docs.ledgera.tech/docs/versions/v_0_1/).
+A high-level introduction to Ledgera (vision, design rationale, and target use cases) is given [here](https://ledgera.tech/assets/docs/ledgera_whitepaper_paper.pdf).
 
+## Ledgera Yellow Paper
 
-## Protocol specification
+The current protocol-level specification, with formal definitions, data structures, and
+the reference execution model is described
+[here](https://ledgera.tech/assets/docs/ledgera_v_0_2_yellow_paper_final.pdf).
 
-A high-level description of the protocol is given [here](https://docs.ledgera.tech/docs/versions/v_0_1/2_spec/).
+## Ledgera Tutorial
 
-
-
-## Software architecture
-
-The current software architecture of the code is described [here](https://docs.ledgera.tech/docs/versions/v_0_1/3_implem/#architecture).
-
+Find [here](https://ledgera.tech/assets/docs/ledgera_tutorial_v_1.pdf) a hands-on guide to
+building a domain-specific application on the Ledgera BFT system, with core Ledgera and
+Rust concepts, two worked reference apps (a minimal hello-world and a full atomic
+register), and how to turn the blank template into your own application.
 
 ## Installation
 
@@ -50,7 +53,7 @@ The workspace pins Rust 1.89 via [code/rust-toolchain.toml](code/rust-toolchain.
 
 ```sh
 cd code
-cargo build
+cargo build --release
 ```
 
 ### 4. Run a test
